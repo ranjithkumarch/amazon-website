@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="homepage.css">
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="header">
+    <div class="container container-header">
+      <div class="logo-container border-white">
+        <div class="logo">
+          <img src="logo1.png">
+        </div>
+        <span class="dotin">.in</span>
+      </div>
+      <div class="address-container border-white">
+        <p class="hello">Hello</p>
+        <div class="icon-address">
+          <img src="location.png">
+          <p>Select your address</p>
+        </div>
+      </div>
+      <div class="search-container">
+        <select class="search-select">
+          <option>All</option>
+          <option value="alexa-skills">Alexa Skills</option>
+          <option value="instant-video">Amazon Video</option>
+          <option value="warehouse-deals">Amazon Warehouse Deals</option>
+          <option value="appliances">Appliances</option>
+          <option value="mobile-apps">Apps &amp; Games</option>
+          <option value="arts-crafts">Arts, Crafts &amp; Sewing</option>
+          <option value="automotive">Automotive Parts &amp; Accessories</option>
+          <option value="baby-products">Baby</option>
+          <option value="beauty">Beauty &amp; Personal Care</option>
+          <option value="stripbooks">Books</option>
+          <option value="popular">CDs &amp; Vinyl</option>
+          <option value="mobile">Cell Phones &amp; Accessories</option>
+          <option value="fashion">Clothing, Shoes &amp; Jewelry</option>
+          <option value="fashion-womens">&nbsp;&nbsp;&nbsp;Women</option>
+          <option value="fashion-mens">&nbsp;&nbsp;&nbsp;Men</option>
+          <option value="fashion-girls">&nbsp;&nbsp;&nbsp;Girls</option>
+          <option value="fashion-boys">&nbsp;&nbsp;&nbsp;Boys</option>
+          <option value="fashion-baby">&nbsp;&nbsp;&nbsp;Baby</option>
+          <option value="collectibles">Collectibles &amp; Fine Art</option>
+          <option value="computers">Computers</option>
+          <option value="courses">Courses</option>
+          <option value="financial">Credit and Payment Cards</option>
+          <option value="digital-music">Digital Music</option>
+          <option value="electronics">Electronics</option>
+          <option value="gift-cards">Gift Cards</option>
+          <option value="grocery">Grocery &amp; Gourmet Food</option>
+          <option value="handmade">Handmade</option>
+          <option value="hpc">Health, Household &amp; Baby Care</option>
+          <option value="local-services">Home &amp; Business Services</option>
+          <option value="garden">Home &amp; Kitchen</option>
+          <option value="industrial">Industrial &amp; Scientific</option>
+          <option value="digital-text">Kindle Store</option>
+          <option value="fashion-luggage">Luggage &amp; Travel Gear</option>
+          <option value="luxury-beauty">Luxury Beauty</option>
+          <option value="magazines">Magazine Subscriptions</option>
+          <option value="movies-tv">Movies &amp; TV</option>
+          <option value="mi">Musical Instruments</option>
+          <option value="office-products">Office Products</option>
+          <option value="lawngarden">Patio, Lawn &amp; Garden</option>
+          <option value="pets">Pet Supplies</option>
+          <option value="prime-exclusive">Prime Exclusive</option>
+          <option value="pantry">Prime Pantry</option>
+          <option value="software">Software</option>
+          <option value="sporting">Sports &amp; Outdoors</option>
+          <option value="tools">Tools &amp; Home Improvement</option>
+          <option value="toys-and-games">Toys &amp; Games</option>
+          <option value="vehicles">Vehicles</option>
+          <option value="videogames">Video Games</option>
+          <option value="wine">Wine</option>
+        </select>
+        <input type="text" class="search-input" />
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="language-container border-white">
+        <p>EN</p>
+        <div class="language-image">
+          <img
+            src="https://media.istockphoto.com/vectors/vector-flag-of-the-republic-of-india-proportion-23-the-national-flag-vector-id1051236720?k=20&m=1051236720&s=612x612&w=0&h=ATObRTHmTosADa9zaB2dQPn_VAQmG1XYH2x92kzc304=" />
+        </div>
+      </div>
+
+     <a href="./assets/all products/page-bags/description-bag/assets/signin-amazon/signin.html"> <div class="login-container border-white">
+        <p>Hello,<span>sign in</span></p>
+        <p class="account">Account & Lists <i class="fa fa-caret-down"></i></p>
+      </div></a>
+
+      <div class="return-order-container">
+        <p>Returns
+        <div class="order">& Orders</div>
+        </p>
+      </div>
+
+      <a href="./assets/Cart & payment/shopping_cart.html"><div class="cart-container border-white">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+      </div> </a>
+    </div>
+  </header>
+  <!--navigation-->
+  <nav class="nav">
+    <div class="container container-nav">
+      <ul>
+        <li class="border-white" id="open-nav-sidebar">
+          <span class="open-nav-slider">
+            <i class="fa-solid fa-bar"></i>
+            <div id="overlay" onclick="closeNav()"></div>
+
+            <div id="closeBtn" onclick="closeNav()">&times;</div>
+            <div class="sidenav" id="mySidenav">
+              <a href="./assets/all products/page-bags/description-bag/assets/signin-amazon/signin.html"><div class="sidenavHeader">
+                <i class="fas fa-user-circle"></i> Hello, Sign In
+              </div></a>
+              <!--Below SideNavHeader-->
+              <div id="main-container">
+                <div class="sidenavContentHeader">Trending</div>
+                <a href="#" id="id111">
+                  <div class="sidenavContent">Best Sellers</div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavContent">New Releases</div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavContent">Movers and Shakers</div>
+                </a>
+                <hr />
+                <div class="sidenavContentHeader">Digital Content And Devices</div>
+                <a href="#" id="id111" onclick="openPrimeVideo()">
+                  <div class="sidenavRow">
+                    <div>Prime Video</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111" onclick="openAmazonMusic()">
+                  <div class="sidenavRow">
+                    <div>Amazon Music</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Apps for Android</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Echo, Alexa & Smart Home</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Fire TV</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Fire Tablets</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Kindle E-readers & Books</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Audible Audiobooks</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <hr />
+                <div class="sidenavContentHeader">Shop By Department</div>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Amazon Fresh</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Books</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Films, TV, Music & Games</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Electronics & Computers</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <div class="sidenavContainer" id="firstContainer">
+                  <hr />
+                  <a href="#" id="id111">
+                    <div class="sidenavRow">
+                      <div>Home, Garden, Pets & DIY</div>
+                      <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                    </div>
+                  </a>
+                  <a href="#" id="id111">
+                    <div class="sidenavRow">
+                      <div>Toys, Children & Baby</div>
+                      <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                    </div>
+                  </a>
+                  <a href="#" id="id111">
+                    <div class="sidenavRow">
+                      <div>Clothes, Shoes, Jewellery & Accessories</div>
+                      <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                    </div>
+                  </a>
+                  <a href="#" id="id111">
+                    <div class="sidenavRow">
+                      <div>Sports & Outdoors</div>
+                      <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                    </div>
+                  </a>
+                  <a href="#" id="id111">
+                    <div class="sidenavRow">
+                      <div>Food & Grocery</div>
+                      <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                    </div>
+                  </a>
+                  <a href="#" id="id111">
+                    <div class="sidenavRow">
+                      <div>Health & Beauty</div>
+                      <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                    </div>
+                  </a>
+                  <a href="#" id="id111">
+                    <div class="sidenavRow">
+                      <div>Car & Motorbike</div>
+                      <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                    </div>
+                  </a>
+                  <a href="#" id="id111">
+                    <div class="sidenavRow">
+                      <div>Business, Industry & Science</div>
+                      <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="sidenavRowDropdown" id="firstDropDown" onclick="firstDropDown()">
+                  <div>See All</div>
+                  <i class="fas fa-chevron-down" style="color: #8e9090; margin-left: 10px">
+                  </i>
+                </div>
+                <hr />
+                <div class="sidenavContentHeader">Programs & Features</div>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Gift Cards & Top Up</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Find a Gift</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Handmade</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavRow">
+                    <div>Amazon Launchpad</div>
+                    <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                  </div>
+                </a>
+                <!--Beginning of second sidenavContainer-->
+                <div class="sidenavContainer" id="secondContainer">
+                  <hr />
+                  <a href="#" id="id111">
+                    <div class="sidenavContent">Made In Italy</div>
+                  </a>
+                  <a href="#" id="id111">
+                    <div class="sidenavRow">
+                      <div>Home Services</div>
+                      <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                    </div>
+                  </a>
+                  <a href="#" id="id111">
+                    <div class="sidenavContent">Prime Wardrobe</div>
+                  </a>
+                  <a href="#" id="id111">
+                    <div class="sidenavRow">
+                      <div>Amazon Business</div>
+                      <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+                    </div>
+                  </a>
+                  <a href="#" id="id111">
+                    <div class="sidenavContent">Amazon Second Chance</div>
+                  </a>
+                </div>
+                <div class="sidenavRowDropdown" id="secondDropDown" onclick="secondDropDown()">
+                  <div>See All</div>
+                  <i class="fas fa-chevron-down" style="color: #8e9090; margin-left: 10px">
+                  </i>
+                </div>
+                <hr />
+                <div class="sidenavContentHeader">Help & Settings</div>
+                <a href="#" id="id111">
+                  <div class="sidenavContent">Your Account</div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavContent">Currency Settings</div>
+                </a>
+                <a href="#" id="id111">
+                  <div class="sidenavContent">Customer Service</div>
+                </a>
+                <a href="./assets/all products/page-bags/description-bag/assets/signin-amazon/signin.html" id="id111">
+                  <div class="sidenavContent">Sign In</div>
+                </a>
+                <div style="height: 50px"></div>
+              </div>
+              <!--End of first container-->
+
+              <div id="sub-container">
+                <div id="mainMenu">
+                  <i class="fas fa-chevron-left" style="color: #8e9090"></i> MAIN MENU
+                </div>
+                <hr />
+                <div id="sub-container-content">
+                  <!-- <div class="sidenavContentHeader">Prime Video</div>
+  <a href="#"><div class="sidenavContent">All Videos</div></a> -->
+                </div>
+              </div>
+            </div>
+
+            <!--Not Sidenav-->
+            <div onclick="openNav()" style="
+font-size: 1em;
+margin-top: -1px;
+margin-left: -3px;
+cursor: pointer;
+color: white;
+display: inline-block;
+">
+              &#9776; All
+            </div>
+          </span>
+        </li>
+        <li class="border-white"><a href="#bestsellers" style="color: white">Best Sellers</a></li>
+        <li class="border-white"><a href="#todaysdeals" style="color: white">Today's Deals</a></li>
+        <li class="border-white"><a href="./assets/all products/page-mobiles/phone-index.html" style="color: white">Mobiles</a></li>
+        <li class="border-white"><a href="#" style="color: white">Electronic</a></li>
+        <li class="border-white"><a href="#" style="color: white">Home & Kitchen</a></li>
+        <li class="border-white"><a href="#" style="color: white">Fashion</a></li>
+        <li class="border-white prime-image-hover">
+          <a href="https://www.primevideo.com/" style="color: white">Prime</a>
+          <div class="prime-image">
+          </div>
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--section start-->
+  <section>
+    <div class="slider-gap"></div>
+    <!-- slider starts here  -->
+    <div id="slider">
+      <figure>
+        <img src="https://m.media-amazon.com/images/I/71-i4E6F3sL._SX3000_.jpg" alt="" />
+        <img src="https://m.media-amazon.com/images/I/61l4i7aoY2L._SX3000_.jpg" alt="" />
+        <img src="https://m.media-amazon.com/images/I/71cQMXCLSvL._SX3000_.jpg" alt="" />
+        <img src="https://m.media-amazon.com/images/I/61aURrton0L._SX3000_.jpg" alt="" />
+        <img src="https://m.media-amazon.com/images/I/71-i4E6F3sL._SX3000_.jpg" alt="" />
+      </figure>
+    </div>
+    <!-- slider ends here  -->
+    <div class="home">
+      <!--home-row-start-1-->
+      <div class="row">
+        <!--row-box-1-->
+        <div class="row-box">
+          <div class="row-box-1">
+            <div id="id008"><b id="id004">Up to 70% off | Clothing</b></div>
+          </div>
+          <div class="row-box-2">
+            <div class="row-box-img">
+              <a href="./assets/all products/page-clothing/clothes-index.html">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF1-186-116._SY116_CB636048992_.jpg"
+                  alt=""><br>
+                <span id="id001">Women's Clothing</span>
+              </a>
+            </div>
+            <div class="row-box-img">
+              <a href="./assets/all products/page-shoes/shoe-index.html">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF2-186-116._SY116_CB636048992_.jpg"
+                  alt=""><br>
+                <span id="id001">Footware+Handbag</span>
+              </a>
+            </div>
+          </div>
+          <div class="row-box-2">
+            <div class="row-box-img">
+              <a href="./assets/all products/page-watch/watch-index.html">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF4-186-116._SY116_CB636048992_.jpg"
+                  alt=""><br>
+                <span id="id001">Watches</span>
+              </a>
+            </div>
+            <div class="row-box-img">
+              <a href="./assets/all products/page-jewellery/jewellery-index.html">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF3-186-116._SY116_CB636048992_.jpg"
+                  alt=""><br>
+                <span id="id001">Fashion Jewelery</span>
+              </a>
+            </div>
+          </div>
+          <div class="row-box-3">
+            <a href="#">
+              <h5 id="id002">End of season sale</h5>
+            </a>
+          </div>
+        </div>
+        <!--row-box-2-->
+        <div class="row-box">
+          <div class="row-box-1">
+            <div id="id008"> <b id="id004">Shop by Category </b></div>
+          </div>
+          <div class="row-box-2">
+            <div class="row-box-img">
+              <a href="#">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fresh._SY116_CB431401553_.jpg"
+                  alt=""><br>
+                <span id="id001">Fresh</span>
+              </a>
+            </div>
+            <div class="row-box-img">
+              <a href="./assets/all products/page-mobiles/phone-index.html">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Mobile._SY116_CB431401553_.jpg"
+                  alt=""><br>
+                <span id="id001">Mobiles</span>
+              </a>
+            </div>
+          </div>
+          <div class="row-box-2">
+            <div class="row-box-img">
+              <a href="#">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fashion._SY116_CB431401553_.jpg"
+                  alt=""><br>
+                <span id="id001">Fashion</span>
+              </a>
+            </div>
+            <div class="row-box-img">
+              <a href="./assets/all products/page-laptop/laptop-index.html">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Electronic._SY116_CB431401553_.jpg"
+                  alt=""><br>
+                <span id="id001">Electronics</span>
+              </a>
+            </div>
+          </div>
+          <div class="row-box-3">
+            <a href="#">
+              <h5 id="id002">See more</h5>
+            </a>
+          </div>
+        </div>
+        <!--row-box-3-->
+        <div class="row-box">
+          <div class="row-box-1">
+            <div id="id008"> <b id="id004" style="padding-top: 10px;">Upgrade your home & more</b></div>
+          </div>
+          <div class="row-box-2">
+            <div class="row-box-img">
+              <a href="./assets/all products/page-laptop/laptop-index.html">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_11._SY116_CB606110532_.jpg"
+                  alt=""><br>
+                <span id="id001">smart LED TV's</span>
+              </a>
+            </div>
+            <div class="row-box-img">
+              <a href="#">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/PB/MSO/Dec/186x116_AC_Fridge._SY116_CB620369430_.jpg"
+                  alt=""><br>
+                <span id="id001">Applicances</span>
+              </a>
+            </div>
+          </div>
+          <div class="row-box-2">
+            <div class="row-box-img">
+              <a href="#">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_4._SY116_CB606110532_.jpg"
+                  alt=""><br>
+                <span id="id001">Furniture</span>
+              </a>
+            </div>
+            <div class="row-box-img">
+              <a href="#">
+                <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_2._SY116_CB606110532_.jpg"
+                  alt=""><br>
+                <span id="id001">Kitchen products</span>
+              </a>
+            </div>
+          </div>
+          <div class="row-box-3">
+            <a href="#">
+              <h5 id="id002">Explore all</h5>
+            </a>
+          </div>
+        </div>
+        <!--row-box-4-->
+        <div class="row-box-diff">
+          <div class="row-box-1-diff" style="background-color: white;">
+            <div id="id008"><b id="id004">Sign in for your Best Experience</div></b><br>
+           <a href="./assets/all products/page-bags/description-bag/assets/signin-amazon/signin.html"> <input type="submit" value="Sign in Securely" 
+              style="width: 260px;height: 30px;border-radius: 5px;background-color: #ffd814;border: none;"></a>
+          </div>
+          <div class="row-box-2-diff">
+            <a href="#"><img src="banner.jpg" alt=""></a>
+          </div>
+          <div class="row-box-3-diff">
+            <b>See Youthere</b>
+          </div>
+        </div>
+      </div>
+      <!--home-row-start-2-->
+      <div class="color-home">
+        <div class="row">
+          <!--row-box-1-->
+          <div class="row-box">
+            <div class="row-box-1">
+              <div id="id008"><b id="id004">Exclusive offers on travel tickets</b></div>
+            </div>
+            <div class="row-box-2">
+              <div class="row-box-img">
+                <a href="#">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/APAYMOVIE/travelQC/Flight_186x116._SY116_CB618818544_.jpg"
+                    alt=""><br>
+                  <span id="id001">Get upto 2000 off</span>
+                </a>
+              </div>
+              <div class="row-box-img">
+                <a href="#">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/APAYMOVIE/travelQC/Train_186x116._SY116_CB618818544_.jpg"
+                    alt=""><br>
+                  <span id="id001">Zero Convience fee</span>
+                </a>
+              </div>
+            </div>
+            <div class="row-box-2">
+              <div class="row-box-img">
+                <a href="#">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/APAYMOVIE/travelQC/Bus_186x116._SY116_CB618818544_.jpg"
+                    alt=""><br>
+                  <span id="id001">reward on bus tickets</span>
+                </a>
+              </div>
+              <div class="row-box-img">
+                <a href="./assets/all products/page-bags/bags-index.html">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/APAYMOVIE/travelQC/Accessory_186x116._SY116_CB618818544_.jpg"
+                    alt=""><br>
+                  <span id="id001">products for your needs</span>
+                </a>
+              </div>
+            </div>
+            <div class="row-box-3">
+              <a href="#">
+                <h5 id="id002">See all offers</h5>
+              </a>
+            </div>
+          </div>
+          <!--row-box-4-->
+          <div class="row-box-diff-2">
+            <div class="row-box-1-diff-2">
+              <div id="id008"> <b id="id004">Pay your Credit Cards Bills on Amazon</b></div>
+            </div>
+            <div class="row-box-2-diff-2">
+              <a href="#"> <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Boson/Sid/CCBP/DesktopGateway_CategoryCard_379x304_CCBP._SY304_CB413372299_.jpg"
+                  alt=""></a>
+            </div>
+            <div class="row-box-3-diff-2">
+              <a href="#">
+                <h5 id="id002">Pay Now</h5>
+              </a>
+            </div>
+          </div>
+          <!--row-box-2-->
+          <div class="row-box">
+            <div class="row-box-1">
+              <div id="id008"><b id="id004">Up to 70% off | new Beginning </b></div>
+            </div>
+            <div class="row-box-2">
+              <div class="row-box-img">
+                <a href="#">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/PB/Wedding_store/Sofa_PC_QC_186x116._SY116_CB617925584_.jpg"
+                    alt=""><br>
+                  <span id="id001">set up your new abode</span>
+                </a>
+              </div>
+              <div class="row-box-img">
+                <a href="#">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/PB/Wedding_store/Crockery_PC_QC_186x116._SY116_CB617925584_.jpg"
+                    alt=""><br>
+                  <span id="id001">for the guest</span>
+                </a>
+              </div>
+            </div>
+            <div class="row-box-2">
+              <div class="row-box-img">
+                <a href="#">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/PB/Wedding_store/Grooming_PC_QC_186x116._SY116_CB617925584_.jpg"
+                    alt=""><br>
+                  <span id="id001">gifts for the newely wed</span>
+                </a>
+              </div>
+              <div class="row-box-img">
+                <a href="./assets/all products/page-laptop/laptop-index.html">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/PB/Wedding_store/TV_PC_QC_186x116._SY116_CB617925584_.jpg"
+                    alt=""><br>
+                  <span id="id001">visit the store</span>
+                </a>
+              </div>
+            </div>
+            <div class="row-box-3">
+              <a href="#">
+                <h5 id="id002">See more</h5>
+              </a>
+            </div>
+          </div>
+          <!--row-box-3-->
+          <div class="row-box">
+            <div class="row-box-1">
+              <div id="id008"> <b id="id004">Professional tools, testing</b></div>
+            </div>
+            <div class="row-box-2">
+              <div class="row-box-img">
+                <a href="#">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2018/QC/Tools1x._SY116_CB424026090_.jpg"
+                    alt=""><br>
+                  <span id="id001">Professional tools</span>
+                </a>
+              </div>
+              <div class="row-box-img">
+                <a href="#">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2021/BAU_GW_Graphics/PCQC/2._SY116_CB643952439_.jpg"
+                    alt=""><br>
+                  <span id="id001">Measuring tools</span>
+                </a>
+              </div>
+            </div>
+            <div class="row-box-2">
+              <div class="row-box-img">
+                <a href="#">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2021/BAU_GW_Graphics/PCQC/1._SY116_CB643952439_.jpg"
+                    alt=""><br>
+                  <span id="id001">Cleaning Supplies</span>
+                </a>
+              </div>
+              <div class="row-box-img">
+                <a href="#">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2018/QC/med1x._SY116_CB424026091_.jpg"
+                    alt=""><br>
+                  <span id="id001">Medical Supplies</span>
+                </a>
+              </div>
+            </div>
+            <div class="row-box-3">
+              <a href="#">
+                <h5 id="id002">See More</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--side-scrollbar-start-1-->
+        <div class="scroll-1" id="todaysdeals">
+          <div class="scroll-1-2">
+            <b id="id004">Today's Deals</b> <a href="#" id="id007">see more</a>
+          </div>
+          <div class="scroll-2-2">
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="./assets/all products/page-bags/bags-index.html"> <img src="./assets/all products/page-bags/bag-pic.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="./assets/all products/page-books/books-index.html"><img src="./assets/all products/page-books/book-pic.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="./assets/all products/page-mobiles/phone-index.html"><img src="https://m.media-amazon.com/images/I/510qRZgpJOL._AC_SY200_.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="./assets/all products/page-clothing/clothes-index.html"><img src="./assets/all products/page-clothing/cloth-pic.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="./assets/all products/page-jewellery/jewellery-index.html"><img src="./assets/all products/page-jewellery/jewellery-pic.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="./assets/all products/page-shoes/shoe-index.html"> <img src="https://m.media-amazon.com/images/I/41J8SEaJLhL._AC_SY200_.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="./assets/all products/page-laptop/laptop-index.html"><img src="./assets/all products/page-laptop/laptop-pic.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="./assets/all products/page-wallets/wallet-index.html"><img src="./assets/all products/page-wallets/description - wallet/assets/img/71Qw9PccpHS._SX679_.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="./assets/all products/page-watch/watch-index.html"> <img src="./assets/all products/page-watch/watch-pic.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="#"><img src="https://m.media-amazon.com/images/I/614TPwWfWHL._AC_SY200_.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="#"><img src="https://m.media-amazon.com/images/I/41MfDUQOpRL._AC_SY200_.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="#"><img src="https://m.media-amazon.com/images/I/31B7DwG79FL._AC_SY200_.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-img-sec">
+                <div class="scroll-img-img">
+                  <a href="#"><img src="https://m.media-amazon.com/images/I/31s9YPqgPxL._AC_SY200_.jpg" alt=""></a>
+                </div>
+                <div class="scroll-img-dec">
+                  <input type="submit" value="up to 78% off" id="id005"><b id="id006">Deals of the day</b>
+                </div>
+              </div>
+            </li>
+          </div>
+        </div>
+        <!--side-scrollbar-end-1-->
+        <!--side-scrollbar-start-2-->
+        <div class="scroll-2" id="bestsellers">
+          <div>
+            <b id="id004">Best Sellers</b> <a id="id007">See More</a>
+          </div>
+          <div class="scroll-2-div">
+            <li>
+              <div class="scroll-2-img">
+                <a href="./assets/all products/page-bags/bags-index.html"><img src="./assets/all products/page-bags/bag-pic.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/61RZoZ7FcyL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="./assets/all products/page-books/books-index.html"> <img src="./assets/all products/page-books/book-pic.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"> <img src="https://m.media-amazon.com/images/I/71uzYX3DZqL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="./assets/all products/page-clothing/clothes-index.html"> <img src="./assets/all products/page-clothing/cloth-pic.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/71ivTHfe4pL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="./assets/all products/page-jewellery/jewellery-index.html"><img src="./assets/all products/page-jewellery/jewellery-pic.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/715owsqWtEL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="./assets/all products/page-laptop/laptop-index.html"><img src="./assets/all products/page-laptop/laptop-pic.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/71UyKbPR7wL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="./assets/all products/page-mobiles/phone-index.html"> <img src="./assets/all products/page-mobiles/description-mobile/assets/img/71PvHfU+pwL._SX679_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/51lL1g2kv8L._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="./assets/all products/page-shoes/shoe-index.html"> <img src="./assets/all products/page-shoes/description-shoes/assets/img/61qgw+hqm5L._UY695_.jpg" alt=""></a>
+              </div>
+            </li>
+          </div>
+        </div>
+        <!--side-scrollbar-end-2-->
+        <!--side-scrollbar-start-3-->
+        <div class="scroll-2">
+          <div>
+            <b id="id004">Up to 75% off | Unique and latest home decors products</b> <a id="id007">See all Offers</a>
+          </div>
+          <div class="scroll-2-div">
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/51TnGICeiYS._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/41mPf2uSCWL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"> <img src="https://m.media-amazon.com/images/I/51SjgV4DmAL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"> <img src="https://m.media-amazon.com/images/I/51zyIctEERL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"> <img src="https://m.media-amazon.com/images/I/41Nv6SO-fjL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/61NC5owtbTL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/610pZuUbbyL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/61XbLmghraL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/51m8MTWEMgL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/61vLFFe8lzL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"> <img src="https://m.media-amazon.com/images/I/81JRsne65oL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/610pZuUbbyL._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <div class="scroll-2-img">
+                <a href="#"> <img src="https://m.media-amazon.com/images/I/61H7sr-PKSS._AC_SY200_.jpg" alt=""></a>
+              </div>
+            </li>
+          </div>
+        </div>
+        <!--side-scrollbar-end-3-->
+        <!--row-start-->
+        <div class="row">
+          <!--row-box-1-->
+          <div class="row-box">
+            <div class="row-box-1">
+              <div id="id008"> <b id="id004">Gifting season for loved ones</b></div>
+            </div>
+            <div class="row-box-2">
+              <div class="row-box-img">
+                <a href="./assets/all products/page-jewellery/jewellery-index.html">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/1_1x_poiu._SY116_CB617859049_.jpg"
+                    alt=""><br>
+                  <span id="id001">Pendants</span>
+                </a>
+              </div>
+              <div class="row-box-img">
+                <a href="./assets/all products/page-shoes/shoe-index.html">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/2_1x_mnbv._SY116_CB617859049_.jpg"
+                    alt=""><br>
+                  <span id="id001">Men's shoes</span>
+                </a>
+              </div>
+            </div>
+            <div class="row-box-2">
+              <div class="row-box-img">
+                <a href="./assets/all products/page-bags/bags-index.html">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/3_1x_fgh._SY116_CB617859049_.jpg"
+                    alt=""><br>
+                  <span id="id001">Handsbags</span>
+                </a>
+              </div>
+              <div class="row-box-img">
+                <a href="./assets/all products/page-watch/watch-index.html">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/4_1x_sdfgh._SY116_CB617859049_.jpg"
+                    alt=""><br>
+                  <span id="id001">Men's Watches</span>
+                </a>
+              </div>
+            </div>
+            <div class="row-box-3">
+              <a href="#">
+                <h5 id="id002">See all offers</h5>
+              </a>
+            </div>
+          </div>
+          <!--row-box-2-->
+          <div class="row-box-diff-2">
+            <div class="row-box-1-diff-2">
+              <div id="id008"> <b id="id004">New Series CRUSHED on miniTV</b></div>
+            </div>
+            <div class="row-box-2-diff-2">
+              <a href="https://www.primevideo.com"> <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Home/AmazonTV/Ravina/Desktop/DeskCC-379x304_CRUSHED-S2_V2._SY304_CB620412632_.jpg"
+                  alt=""></a>
+            </div>
+            <div class="row-box-3-diff-2">
+              <a href="#">
+                <h5 id="id002">Pay Now</h5>
+              </a>
+            </div>
+          </div>
+          <!--row-box-3-->
+          <div class="row-box-diff-2-2">
+            <div class="row-box-1-diff-2">
+              <div id="id008"><b id="id004">Fitbits at offer prices from small businesses</b></div>
+            </div>
+            <div class="row-box-2-diff-2">
+              <a href="./assets/all products/page-watch/watch-index.html"> <img
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/1X_CC-PC_758X608_lkjh._SY304_CB617857786_.jpg"
+                  alt=""></a>
+            </div>
+            <div class="row-box-3-diff-2">
+              <a href="#">
+                <h5 id="id002">Pay Now</h5>
+              </a>
+            </div>
+          </div>
+          <!--row-box-4-->
+          <div class="row-box">
+            <div class="row-box-1">
+              <div id="id008"> <b id="id004">Electronics devices for home office</b></div>
+            </div>
+            <div class="row-box-2">
+              <div class="row-box-img">
+                <a href="./assets/all products/page-watch/watch-index.html">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc0.5x_5._SY116_CB655805757_.jpg"
+                    alt=""><br>
+                  <span id="id001">Smartwatches</span>
+                </a>
+              </div>
+              <div class="row-box-img">
+                <a href="./assets/all products/page-mobiles/phone-index.html">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc0.5x_6._SY116_CB655805757_.jpg"
+                    alt=""><br>
+                  <span id="id001">Tablets</span>
+                </a>
+              </div>
+            </div>
+            <div class="row-box-2">
+              <div class="row-box-img">
+                <a href="./assets/all products/page-laptop/laptop-index.html">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc0.5x_7._SY116_CB655805757_.jpg"
+                    alt=""><br>
+                  <span id="id001">Laptops</span>
+                </a>
+              </div>
+              <div class="row-box-img">
+                <a href="./assets/all products/page-laptop/laptop-index.html">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc0.5x_8._SY116_CB655805757_.jpg"
+                    alt=""><br>
+                  <span id="id001">Monitors</span>
+                </a>
+              </div>
+            </div>
+            <div class="row-box-3">
+              <a href="#">
+                <h5 id="id002">See More</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section end-->
+  <!--footer start-->
+  <footer>
+    <div class="footer-main">
+      <div class="footer-1-3">
+        <div><a class="a_footer" id="id6" href="#">Back To Top</a></div>
+      </div>
+      <div class="footer-2-3">
+        <div class="div-1">
+          <li id="id4"><a class="a_footer" href="">Get to Know Us</a></li>
+          <li><a class="a_footer" href="">About Us</a></li>
+          <li><a class="a_footer" href="">Career</a></li>
+          <li><a class="a_footer" href="">Press Releases</a></li>
+          <li><a class="a_footer" href="">Amazon Science</a></li>
+        </div>
+        <div class="div-2">
+          <li id="id4"><a class="a_footer" href="">Connect With Us</a></li>
+          <li><a class="a_footer" href="">Facebook</a></li>
+          <li><a class="a_footer" href="">Twitter</a></li>
+          <li><a class="a_footer" href="">Instagram</a></li>
+        </div>
+        <div class="div-3">
+          <li id="id4"><a class="a_footer" href="">Make Money With Us</a></li>
+          <li><a class="a_footer" href="">Sell on Amazon</a></li>
+          <li><a class="a_footer" href="">Sell Under Amazon Accelarator</a></li>
+          <li><a class="a_footer" href="">Protect and Build Your Brand</a></li>
+          <li><a class="a_footer" href="">Amazon Global Selling</a></li>
+          <li><a class="a_footer" href="">Become an Affilate</a></li>
+          <li><a class="a_footer" href="">Fulfilment by Amazon</a></li>
+          <li><a class="a_footer" href="">Advertise Your Products</a></li>
+          <li><a class="a_footer" href="">Amazon Pay on Merchants</a></li>
+        </div>
+        <div class="div-4">
+          <li id="id4"><a class="a_footer" href="">Let Us Help You</a></li>
+          <li><a class="a_footer" href="">COVID-19 and Amazon</a></li>
+          <li><a class="a_footer" href="">Your Account</a></li>
+          <li><a class="a_footer" href="">Return Center</a></li>
+          <li><a class="a_footer" href="">100% Purchase Protection</a></li>
+          <li><a class="a_footer" href="">Amazon App Download</a></li>
+          <li><a class="a_footer" href="">Amazon Assistant Download</a></li>
+          <li><a class="a_footer" href="">Help</a></li>
+        </div>
+      </div>
+      <div class="footer-3-3">
+        <div class="div-5">
+          <div><a class="a_footer" href="#"><img src="logo1.png" alt=""></a></div>
+        </div>
+        <div class="div-6">
+          <div>
+            <button id="id5"><a class="a_footer" href="">English</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-4-3">
+        <li><a class="a_footer" href="">Australia</a></li>
+        <li><a class="a_footer" href="">Brazil</a></li>
+        <li><a class="a_footer" href="">Canada</a></li>
+        <li><a class="a_footer" href="">China</a></li>
+        <li><a class="a_footer" href="">France</a></li>
+        <li><a class="a_footer" href="">Germany</a></li>
+        <li><a class="a_footer" href="">Italy</a></li>
+        <li><a class="a_footer" href="">Japan</a></li>
+        <li><a class="a_footer" href="">Mexico</a></li>
+        <li><a class="a_footer" href="">Netherlands</a></li>
+        <li><a class="a_footer" href="">Poland</a></li>
+        <li><a class="a_footer" href="">Singapore</a></li>
+        <li><a class="a_footer" href="">Spain</a></li>
+        <li><a class="a_footer" href="">Turkey</a></li>
+        <li><a class="a_footer" href="">United Arab Emirates</a></li>
+        <li><a class="a_footer" href="">United Kingdom</a></li>
+        <li><a class="a_footer" href="">United States</a></li>
+      </div>
+    </div>
+  </footer>
+  <!--footer end-->
+  <script src="amazon1.js"></script>
+</body>
+
+</html>
